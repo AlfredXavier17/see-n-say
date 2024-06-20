@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#noun1 {
+    background-color: #513A82;
+}
+#verb {
+    background-color: #d2a118;
+}
+#adjective {
+    background-color: #266da7;
+}
+#noun2 {
+    background-color: #429a78;
+}
+#place {
+    background-color: #cd1d36;
+}
+
+#reset, #random, #speak {
+    background-color: grey;
+}
+
+.buttons div {
+    display: flex;
+}
+
+.buttons div ul {
+    display: flex;
+}
+
+.buttons div ul li {
+    margin-left: 2rem;
+}
+
+button {
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+button:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
